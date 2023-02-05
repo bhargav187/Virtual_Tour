@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+  background-image: url('college.jpg');
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #bd4141;
+    font-size:18px ;
+    font-weight: bold;
+}
+  li{
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+  .active {
+    background-color: #000000;
+  }
+  .logo{
+    background-color: azure;
+  }
+  .footer{
+    background-color: #a82727;
+    position: relative;
+    top: 450px;
+    height: 47px;
+  }
+  span{
+    font-weight: bold;
+    color: rgb(206, 250, 250);
+  }
